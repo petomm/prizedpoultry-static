@@ -1,0 +1,708 @@
+<!doctype html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HenGuard Worm Defense</title>
+
+    
+      <meta name="description" content="All-natural poultry cleanse &amp;amp; parasite prevention blend. Formulated with papaya seeds, pumpkin seeds, oregano, thyme, garlic, and other powerful herbs — for daily defense and gut support.Mix 1 tablespoon per pound of feed daily. Most flock owners see results within 2–3 weeks of consistent use.">
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<link rel="icon" href="../../assets/images/prized-poultry-fav.png"><link rel="stylesheet" href="../../css/fonts.css"><link rel="stylesheet" href="../../css/theme.css"><link rel="stylesheet" href="../../css/static.css"><link rel="stylesheet" href="../../css/responsive.css"><meta name="robots" content="noindex,nofollow"></head>
+
+  <body class="template-product">
+
+    <div tabindex="-1" aria-hidden="true" id="web-pixels-manager-sandbox-container" style="height: 0px !important; width: 0px !important; position: fixed !important; visibility: hidden !important; overflow: hidden !important; z-index: -100 !important; margin: 0px !important; padding: 0px !important; border: 0px !important;"></div>
+    <div class="announcement-bar">
+      🌿 Free Shipping on Orders Over $40 · Made in America · 30-Day Guarantee
+    </div>
+
+    
+    <nav class="site-nav" id="site-nav">
+      <div class="nav-inner">
+        <a href="../../" class="nav-logo">
+          <div class="nav-logo-badge">
+            <img src="../../assets/images/prized-poultry-logo1.png" alt="Prized Poultry" width="44" height="44" style="display:block;">
+          </div>
+          <span class="nav-logo-text">Prized Poultry</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="../../#products">Product</a></li>
+          <li><a href="../../#ingredients">Ingredients</a></li>
+          <li><a href="../../#how-it-works">How It Works</a></li>
+          <li><a href="../../#reviews">Reviews</a></li>
+          <li><a href="../../#faq">FAQ</a></li>
+          <li><a href="../../#bundle">Bundle Deals</a></li>
+        <li><a href="../../collections/all/">All Products</a></li></ul>
+        <div class="nav-actions">
+          
+          <a href="../../#products" class="btn-shop-now">Shop Now</a>
+        </div>
+      </div>
+    </nav><div class="static-status">All products are currently sold out. Online ordering is unavailable.</div>
+
+    
+    <div class="site-ticker">
+      <div class="ticker-track">
+        <span>🌿 All-Natural Ingredients  ·  🇺🇸 Made in USA  ·  🔒 30-Day Guarantee  ·  🚚 Free Shipping Over $40  ·  🌿 All-Natural Ingredients  ·  🇺🇸 Made in USA  ·  🔒 30-Day Guarantee  ·  🚚 Free Shipping Over $40  ·  🌿 All-Natural Ingredients  ·  🇺🇸 Made in USA  ·  🔒 30-Day Guarantee  ·  🚚 Free Shipping Over $40  ·  🌿 All-Natural Ingredients  ·  🇺🇸 Made in USA  ·  🔒 30-Day Guarantee  ·  🚚 Free Shipping Over $40</span>
+      </div>
+    </div>
+
+    
+    
+
+    
+    
+
+    
+    <main id="MainContent" class="content-for-layout">
+      <div id="shopify-section-template--24173861077015__main" class="shopify-section">
+
+<style>
+  :root {
+    --kraft-bg:    #f8f2e4;
+    --kraft-dark:  #5a4a3a;
+    --cobalt-blue: #1a4b8c;
+    --golden:      #c8860a;
+    --forest:      #2d5016;
+    --cream-border:#e8e0d0;
+  }
+
+  .product-page {
+    background: var(--kraft-bg);
+    min-height: 80vh;
+    padding: 3rem 1.5rem;
+  }
+
+  .product-page-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+  }
+
+  /* ── Image column ── */
+  .pp-image-wrap {
+    position: sticky;
+    top: 90px;
+  }
+
+  .pp-main-stage {
+    position: relative;
+    width: 100%;
+    background: #fff;
+    border: 1px solid var(--cream-border);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .pp-main-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+  }
+
+  /* Arrow buttons */
+  .pp-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255,255,255,0.45);
+    border: 1px solid rgba(232,224,208,0.6);
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 2;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  .pp-arrow:hover { background: rgba(255,255,255,0.82); box-shadow: 0 4px 14px rgba(0,0,0,0.13); }
+  .pp-arrow svg { display: block; }
+  .pp-arrow-prev { left: 10px; }
+  .pp-arrow-next { right: 10px; }
+
+  /* Image counter */
+  .pp-img-counter {
+    position: absolute;
+    bottom: 10px;
+    right: 12px;
+    background: rgba(0,0,0,0.45);
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    padding: 0.2rem 0.55rem;
+    border-radius: 20px;
+  }
+
+  /* Thumbnails */
+  .pp-thumbnails {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding-bottom: 2px;
+  }
+  .pp-thumbnails::-webkit-scrollbar { display: none; }
+
+  .pp-thumb {
+    flex-shrink: 0;
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border: 2px solid var(--cream-border);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: border-color 0.2s, opacity 0.2s;
+    background: #fff;
+  }
+  .pp-thumb:hover { opacity: 0.85; }
+  .pp-thumb.active { border-color: var(--golden); }
+
+  /* ── Info column ── */
+  .pp-info { display: flex; flex-direction: column; gap: 1rem; }
+
+  .pp-badge-row {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .pp-badge {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 0.25rem 0.6rem;
+    border-radius: 2px;
+    font-weight: 600;
+  }
+
+  .pp-badge-green { background: var(--forest); color: #fff; }
+  .pp-badge-blue  { background: var(--cobalt-blue); color: #fff; }
+
+  .pp-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: var(--kraft-dark);
+    line-height: 1.2;
+  }
+
+  .pp-subtitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #808080;
+  }
+
+  .pp-rating {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.82rem;
+    color: var(--kraft-dark);
+  }
+
+  .pp-stars { color: var(--golden); font-size: 1rem; letter-spacing: 0.05em; }
+
+  .pp-price-row {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+  }
+
+  .pp-price {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--forest);
+  }
+
+  .pp-compare-price {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    color: #a0a0a0;
+    text-decoration: line-through;
+  }
+
+  .pp-variants {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .pp-variants label {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #808080;
+    margin-bottom: 0.25rem;
+  }
+
+  .pp-variant-btns {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .pp-variant-btn {
+    border: 2px solid var(--cream-border);
+    background: #fff;
+    padding: 0.5rem 1rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.82rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+  }
+
+  .pp-variant-btn.active {
+    border-color: var(--forest);
+    background: var(--forest);
+    color: #fff;
+  }
+
+  .pp-variant-btn:hover:not(.active) {
+    border-color: var(--kraft-dark);
+  }
+
+  .pp-variant-save {
+    font-size: 0.65rem;
+    color: var(--golden);
+  }
+
+  .pp-variant-btn.active .pp-variant-save {
+    color: #f0c060;
+  }
+
+  .pp-qty-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .pp-qty-row label {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #808080;
+  }
+
+  .pp-qty-ctrl {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid var(--cream-border);
+    border-radius: 2px;
+    padding: 0.2rem 0.4rem;
+    background: #fff;
+  }
+
+  .pp-qty-ctrl button {
+    background: none;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: var(--kraft-dark);
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s;
+  }
+
+  .pp-qty-ctrl button:hover { color: var(--golden); }
+  .pp-qty-ctrl span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    min-width: 28px;
+    text-align: center;
+  }
+
+  .pp-atc-btn {
+    display: block;
+    width: 100%;
+    padding: 1.1rem;
+    background-color: var(--forest);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+
+  .pp-atc-btn:hover { background-color: #1e3a0f; }
+  .pp-atc-btn.loading { opacity: 0.7; pointer-events: none; }
+
+  .pp-description {
+    font-family: 'Georgia', serif;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #555;
+    border-top: 1px solid var(--cream-border);
+    padding-top: 1rem;
+  }
+
+  .pp-features {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding-top: 0.5rem;
+  }
+
+  .pp-features li {
+    font-family: 'Georgia', serif;
+    font-size: 0.9rem;
+    color: var(--kraft-dark);
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .pp-features li::before {
+    content: '✓';
+    color: var(--forest);
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  @media (max-width: 768px) {
+    .product-page-inner {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    .pp-image-wrap { position: static; }
+    .pp-title { font-size: 1.5rem; }
+  }
+</style>
+
+<section class="product-page">
+  <div class="product-page-inner">
+
+    
+    <div class="pp-image-wrap">
+      
+
+        
+        
+
+        <div class="pp-main-stage">
+          <img id="pp-main-img" class="pp-main-image" src="../../assets/images/6bbdfa908394-henguard-herbs.jpg" alt="HenGuard Worm Defense">
+
+          
+            <button class="pp-arrow pp-arrow-prev" id="pp-arrow-prev" aria-label="Previous image">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M9 2L4 7l5 5" stroke="#3a2a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </button>
+            <button class="pp-arrow pp-arrow-next" id="pp-arrow-next" aria-label="Next image">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 2l5 5-5 5" stroke="#3a2a1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </button>
+            <span class="pp-img-counter" id="pp-counter">1 / 7</span>
+          
+        </div>
+
+        
+          <div class="pp-thumbnails" id="pp-thumbnails">
+            
+              <img class="pp-thumb active" src="../../assets/images/6bbdfa908394-henguard-herbs.jpg" data-full="../../assets/images/6bbdfa908394-henguard-herbs.jpg" data-index="0" alt="HenGuard Worm Defense">
+            
+              <img class="pp-thumb " src="../../assets/images/a0f130580043-herbs-for-chickens-worm-prevention.jpg" data-full="../../assets/images/a0f130580043-herbs-for-chickens-worm-prevention.jpg" data-index="1" alt="HenGuard Worm Defense">
+            
+              <img class="pp-thumb " src="../../assets/images/9308deb523b9-all_natural_herbs_for_chickens.png" data-full="../../assets/images/9308deb523b9-all_natural_herbs_for_chickens.png" data-index="2" alt="HenGuard Worm Defense">
+            
+              <img class="pp-thumb " src="../../assets/images/504382cb77a7-henguard-product_7175bb03-28a4-4504-b354-962997a737d6.png" data-full="../../assets/images/504382cb77a7-henguard-product_7175bb03-28a4-4504-b354-962997a737d6.png" data-index="3" alt="HenGuard Worm Defense">
+            
+              <img class="pp-thumb " src="../../assets/images/13272c671b9b-bag-with-label-and-herbs2.jpg" data-full="../../assets/images/13272c671b9b-bag-with-label-and-herbs2.jpg" data-index="4" alt="HenGuard Worm Defense">
+            
+              <img class="pp-thumb " src="../../assets/images/b01124322f4b-papaya-pumpkin-blend.jpg" data-full="../../assets/images/b01124322f4b-papaya-pumpkin-blend.jpg" data-index="5" alt="HenGuard Worm Defense">
+            
+              <img class="pp-thumb " src="../../assets/images/6dd33b4e65ea-directions.jpg" data-full="../../assets/images/6dd33b4e65ea-directions.jpg" data-index="6" alt="HenGuard Worm Defense">
+            
+          </div>
+        
+
+      
+    </div>
+
+    
+    <div class="pp-info">
+      <div class="pp-badge-row">
+        <span class="pp-badge pp-badge-green">Best Seller</span>
+        <span class="pp-badge pp-badge-blue">Made in USA</span>
+      </div>
+
+      <h1 class="pp-title">HenGuard Worm Defense</h1>
+
+      
+
+      <div class="pp-rating">
+        <span class="pp-stars">★★★★★</span>
+        <span>4.9 · 2,400+ reviews</span>
+      </div>
+
+      
+
+        <div class="pp-price-row">
+          <span class="pp-price" id="pp-price">$33.93</span>
+          
+        </div>
+
+        
+        
+          <div class="pp-variants">
+            <label>Size</label>
+            <div class="pp-variant-btns">
+              
+                <button class="pp-variant-btn active" data-price="$33.93">
+                  <span>1 Pound</span>
+                  <span>$33.93</span>
+                </button>
+              
+                <button class="pp-variant-btn " data-price="$55.95">
+                  <span>2 Pounds</span>
+                  <span>$55.95</span>
+                </button>
+              
+                <button class="pp-variant-btn " data-price="$75.95">
+                  <span>3 Pounds</span>
+                  <span>$75.95</span>
+                </button>
+              
+                <button class="pp-variant-btn " data-price="$125.95">
+                  <span>5 Pounds</span>
+                  <span>$125.95</span>
+                </button>
+              
+                <button class="pp-variant-btn " data-price="$199.98">
+                  <span>10 Pounds</span>
+                  <span>$199.98</span>
+                </button>
+              
+            </div>
+          </div>
+        
+
+        
+        
+
+      
+
+      
+      <button class="pp-atc-btn sold-out" id="pp-atc-btn" disabled="disabled">Sold Out</button>
+
+      
+      
+        <div class="pp-description">
+          <p>All-natural poultry cleanse &amp; parasite prevention blend. Formulated with papaya seeds, pumpkin seeds, oregano, thyme, garlic, and other powerful herbs — for daily defense and gut support.</p><p>Mix 1 tablespoon per pound of feed daily. Most flock owners see results within 2–3 weeks of consistent use.</p>
+        </div>
+      
+
+      
+      <ul class="pp-features">
+        <li>All-natural ingredients — no antibiotics or fillers</li>
+        <li>Vet-reviewed formula for flock health</li>
+        <li>30-day money-back guarantee</li>
+        <li>Free shipping on orders over $40</li>
+        <li>Made in the USA</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+</div>
+    </main>
+
+    
+    <div id="shopify-section-footer" class="shopify-section"><style>
+  footer {
+    background-color: #8b6f47;
+    color: #f8f2e4;
+    padding: 3rem 1.5rem;
+    margin-top: 4rem;
+  }
+
+  .footer-container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .footer-section h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-section li {
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-section a {
+    color: #f8f2e4;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .footer-section a:hover {
+    color: #c8860a;
+  }
+
+  .footer-section p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .footer-bottom {
+    border-top: 1px solid rgba(248, 242, 228, 0.2);
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 0.85rem;
+  }
+
+  @media (max-width: 768px) {
+    .footer-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div class="footer-section">
+        <h3>About Prized Poultry</h3>
+        <p>We're dedicated to providing natural, effective solutions for backyard chicken keepers. All-natural, made in America, backed by a 30-day guarantee.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="../../#products">Shop Products</a></li>
+          <li><a href="../../#ingredients">Our Ingredients</a></li>
+          <li><a href="../../#faq">FAQ</a></li>
+          <li><a href="../../pages/contact/">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Customer Service</h3>
+        <ul>
+          <li><a href="../../policies/shipping-policy/">Shipping Info</a></li>
+          <li><a href="../../policies/refund-policy/">Returns &amp; Refunds</a></li>
+          <li><a href="../../policies/privacy-policy/">Privacy Policy</a></li>
+          <li><a href="../../policies/terms-of-service/">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Prized Poultry. All rights reserved. Made in America with ❤️</p>
+    </div>
+  </div>
+</footer>
+</div>
+
+    
+    
+  
+
+
+<script src="../../js/site.js" defer=""></script></body></html>

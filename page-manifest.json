@@ -1,0 +1,70 @@
+[
+  {
+    "route": "/",
+    "title": "Prized Poultry"
+  },
+  {
+    "route": "/products/henguard-worm-defense-all-natural-poultry-cleanse-parasite-prevention-papaya-pumpkin-seed-blend-with-oregano-thyme-garlic-all-natural-herbs-12-oz",
+    "title": "Henguard Worm Defense, All-Natural Poultry Cleanse & Parasite Preventi"
+  },
+  {
+    "route": "/products/henguard-worm-defense",
+    "title": "HenGuard Worm Defense"
+  },
+  {
+    "route": "/products/salmonella-defense",
+    "title": "Salmonella & E.Coli Defense"
+  },
+  {
+    "route": "/collections/all",
+    "title": "All Products | Prized Poultry"
+  },
+  {
+    "route": "/collections/frontpage",
+    "title": "Home page collection | Prized Poultry"
+  },
+  {
+    "route": "/pages/contact",
+    "title": "Contact"
+  },
+  {
+    "route": "/pages/shipping-policy",
+    "title": "Shipping Policy"
+  },
+  {
+    "route": "/pages/data-sharing-opt-out",
+    "title": "Your Privacy Choices"
+  },
+  {
+    "route": "/blogs/news",
+    "title": "News"
+  },
+  {
+    "route": "/blogs/the-flock-report",
+    "title": "The Flock Report"
+  },
+  {
+    "route": "/blogs/the-flock-report/4-herbs-for-healthier-chickens",
+    "title": "4 Herbs for Healthier Chickens: Oregano, Thyme, Garlic & Sage | Prized Poultry"
+  },
+  {
+    "route": "/blogs/the-flock-report/echinacea-salmonella-defense-chickens",
+    "title": "Echinacea for Chickens: How Purple Coneflower Fights Salmonella | Prized Poultry"
+  },
+  {
+    "route": "/policies/shipping-policy",
+    "title": "Shipping Policy"
+  },
+  {
+    "route": "/policies/refund-policy",
+    "title": "Refund Policy | Prized Poultry"
+  },
+  {
+    "route": "/policies/privacy-policy",
+    "title": "Privacy policy"
+  },
+  {
+    "route": "/policies/terms-of-service",
+    "title": "Terms of Service | Prized Poultry"
+  }
+]

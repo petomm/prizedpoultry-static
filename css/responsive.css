@@ -1,0 +1,17 @@
+@media(max-width:800px){
+ .site-nav{position:relative!important;height:auto!important;padding:14px 18px!important;top:auto!important}
+ .nav-inner{flex-wrap:wrap!important;justify-content:center!important;gap:14px!important;height:auto!important}
+ .nav-logo{flex-shrink:0;justify-content:center;width:100%}
+ .nav-logo-text{white-space:nowrap}
+ .nav-links{order:2;width:100%;display:flex!important;flex-wrap:wrap!important;gap:10px 18px!important;margin:0!important;position:static!important}
+ .nav-actions{display:none!important}
+ .pd-image-col,.pd-details-col{min-width:0!important;max-width:100%!important}
+ .pd-sizes{display:flex!important;flex-wrap:wrap!important}
+ .pd-size-btn{flex:1 1 85px!important}
+ .pd-tabs{flex-wrap:wrap}
+ .pp-variant-btns{flex-wrap:wrap!important}
+ .pp-info,.pp-gallery,.pp-image-wrap{min-width:0!important;max-width:100%!important;width:100%!important}
+ .product-page-inner{grid-template-columns:minmax(0,1fr)!important}
+ .policy-title{overflow-wrap:anywhere}
+}
+.missing-photo{display:block;padding:24px;border:1px solid #cbb998;color:#685238;background:#f8f2e4;text-align:center}
