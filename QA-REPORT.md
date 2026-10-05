@@ -24,6 +24,8 @@ The original logo, colors, Playfair Display and Oswald fonts, theme CSS, hero ba
 
 - Static validation of every route: all internal links, fragment targets, stylesheet/script references, image paths and gallery references resolve.
 - All 17 pages checked at 390px mobile width: no horizontal document overflow; no failed completed image loads; every rendered Sold Out button disabled.
+- Deployed GitHub Pages preview verified: all 73 HTML, CSS, JavaScript, JSON, image and font files returned HTTP 200 and matched the local files. One transient CDN 503 cleared on recheck.
+- Deployed desktop pages checked at 1440px; mobile navigation from homepage to collection to product checked at 390px. Price selection and gallery navigation tested. No browser JavaScript errors were observed during these checks.
 - No forms, iframes, inline event handlers, cart links, checkout links or account links remain.
 - Font files are local with their original SIL Open Font Licenses. All image and script/style runtime references are local.
 - Remaining external hyperlinks are public legal references (Shopify privacy documentation and the European Data Protection Board), not runtime services. No remaining Shopify runtime dependencies.
