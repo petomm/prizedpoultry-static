@@ -2,7 +2,9 @@
 
 Public, display-only recreation of PrizedPoultry.com, captured October 5, 2026. The independent Shopify restoration backup is **not part of this repository** and was not modified.
 
-Preview: https://petomm.github.io/prizedpoultry-static/
+Website: https://prizedpoultry.com/
+
+Original preview: https://petomm.github.io/prizedpoultry-static/ (redirects to the custom domain).
 
 ## Contents
 
@@ -17,7 +19,7 @@ Preview: https://petomm.github.io/prizedpoultry-static/
 
 Every purchasing button is disabled and says **Sold Out**. There is no cart, checkout, customer login, inventory request, subscription form, Shopify JavaScript, analytics or Liquid rendering. `js/site.js` implements only presentation: hero navigation, product tabs, displayed size prices and product photo galleries. All runtime assets are local. The preserved privacy policy contains an ordinary external link to Shopify's public privacy documentation; this is not a runtime dependency.
 
-The preview is marked `noindex,nofollow` to avoid competing with the current live site. No custom domain or DNS changes were made. No `CNAME` file is present.
+The owner authorized the custom-domain cutover on October 5, 2026. `CNAME` contains `prizedpoultry.com`; Namecheap website DNS points to GitHub Pages. The preview-only `noindex,nofollow` instruction has been removed. Email DNS records and the Shopify restoration backup remain unchanged.
 
 ## Hosting and editing
 
@@ -25,6 +27,6 @@ GitHub Pages serves the root of the `main` branch. There is no build step, depen
 
 To preview locally, run any static HTTP server against this directory. Use HTTP rather than opening files directly.
 
-Before a future domain cutover, review the QA report, confirm contact details and policy text, decide whether to remove the preview robots instruction, and separately authorize DNS changes. Do not restore selling features without a separately implemented commerce service.
+Review the QA report for preserved historical policy text and missing source content. Do not restore selling features without a separately implemented commerce service.
 
 No credentials, customer records, orders or private store exports are included. Text and imagery remain the store owner's content; bundled fonts retain their included licenses.

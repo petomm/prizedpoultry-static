@@ -34,4 +34,4 @@ The original logo, colors, Playfair Display and Oswald fonts, theme CSS, hero ba
 
 Review desktop/mobile branding, all three product descriptions and prices, galleries, navigation, blog formatting and Contact. Review historical claims, promotions, guarantee and shipping text because this site no longer accepts orders. Supply the unavailable refund/terms policies and two article images if you want them restored. Review the preserved privacy policy, which describes the former Shopify store, before treating it as the policy for a new static site.
 
-No DNS change, Shopify deactivation or domain cutover has been performed.
+At preview delivery, no DNS change or Shopify deactivation had been performed. The owner subsequently authorized the domain cutover on October 5, 2026: `prizedpoultry.com` and `www` now point to GitHub Pages. Email MX/SPF records were verified unchanged. Shopify has not been deactivated, and the permanent backup remains untouched.
